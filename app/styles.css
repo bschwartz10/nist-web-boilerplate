@@ -1,0 +1,90 @@
+body {
+  background-color: #F2F2F4;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  border-top: solid 5px #0c6bed;
+  border-bottom: solid 1px #e5e5e5;
+  background: #fff;
+  height: 60px;
+}
+
+.nav-inner {
+  margin: 0 50px;
+}
+
+.image-container {
+  width: 160px;
+  min-width: 160px;
+}
+
+.image-container img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+}
+
+.page-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: solid 1px #e4e4e4;
+  border-radius: 5px;
+  background: #fff;
+  margin-top: 50px;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  color: #0c6bed;
+
+}
+
+.form {
+
+}
+
+.form h3 {
+  display: inline-block;
+}
+
+.button {
+  background: #0c6bed;
+  width: 70px;
+  height: 45px;
+  border: 1px solid #0c6bed;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #fff;
+  color: #0c6bed;
+}
+
+#password-value {
+  margin: 0;
+  padding: 10px;
+  font-size: 16px;
+  border: solid 1px #e4e4e4;
+}
+
+h1,h3,p {
+  font-family: sans-serif;
+}
+
+#message {
+  text-align: center;
+}
