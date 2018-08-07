@@ -7,7 +7,7 @@
         2. AT LEAST 64 character maximum
         3. Allow all ASCII characters and spaces (unicode optional)
         4. Not be a common password(pw.txt contains common passwords)
-* Test a password by typing it into the "Password" input field and clicking "Check". A message will come up either saying the password is valid or a error message explaining why it is invalid.
+* Test a password by typing it into the "Password" input field and clicking "Check". A message will appear either saying the password is valid or an error explaining why it is invalid.
 
 ## Setup
 * To set up a local copy of this project, perform the following:
